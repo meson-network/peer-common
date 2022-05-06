@@ -1,8 +1,8 @@
 package heart_beat
 
 import (
-	"github.com/meson-network/peer-common/api"
-	"github.com/meson-network/peer-common/hardware"
+	"github.com/meson-network/peer_common/api"
+	"github.com/meson-network/peer_common/hardware"
 )
 
 const HEART_BEAT_INTERVAL_SECS = 30
