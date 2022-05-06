@@ -1,5 +1,7 @@
 package api
 
+const DOMAIN = "mesontracking.com"
+
 //api meta
 
 type API_META_VERSION struct {
