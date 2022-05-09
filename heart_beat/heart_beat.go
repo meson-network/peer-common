@@ -12,7 +12,6 @@ const TASK_DOWNLOAD = "task_download"
 
 // @Description Msg_Req_HeartBeat
 type Msg_Req_HeartBeat struct {
-	Token               string `json:"token"`
 	Node_rand           string `json:"node_rand"`           //required
 	Downloading_threads uint64 `json:"downloading_threads"` //required
 	Port                uint64 `json:"port"`
