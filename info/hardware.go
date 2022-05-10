@@ -1,4 +1,4 @@
-package hardware
+package info
 
 // @Description HardwareInfo
 type HardwareInfo struct {
