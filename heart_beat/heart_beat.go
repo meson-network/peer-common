@@ -22,6 +22,7 @@ type Msg_Req_HeartBeat struct {
 
 // @Description Msg_Resp_HeartBeat
 type Msg_Resp_HeartBeat struct {
-	Tasks []string `json:"tasks"`
+	Server_unixtime int64    `json:"server_unixtime"`
+	Tasks           []string `json:"tasks"`
 	api.API_META_STATUS
 }
