@@ -18,7 +18,6 @@ type Msg_Resp_SpeedTestJob struct {
 // @Description Msg_Req_Report
 type Msg_Req_Report struct {
 	Ip                  string `json:"ip"`                  //required
-	Node_token          string `json:"node_token"`          //required
 	Success             bool   `json:"success"`             //required
 	Bandwidth_bytes_sec int64  `json:"bandwidth_bytes_sec"` //required
 }
