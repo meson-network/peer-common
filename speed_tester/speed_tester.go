@@ -7,6 +7,7 @@ import (
 type SpeedTestTarget struct {
 	Ip    string `json:"ip"`
 	Token string `json:"token"`
+	Port  string `json:"port"`
 }
 
 // @Description Msg_Resp_SpeedTestJob
