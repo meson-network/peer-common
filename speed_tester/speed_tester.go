@@ -23,7 +23,7 @@ type Msg_Req_Report struct {
 	Bandwidth_bytes_sec int64  `json:"bandwidth_bytes_sec"` //required
 }
 
-// @Description Msg_Resp_Report
-type Msg_Resp_Report struct {
-	api.API_META_STATUS
-}
+//// @Description Msg_Resp_Report
+//type Msg_Resp_Report struct {
+//	api.API_META_STATUS
+//}
