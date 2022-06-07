@@ -8,10 +8,11 @@ const HEART_BEAT_INTERVAL_SECS = 30
 
 // @Description Msg_Req_HeartBeat
 type Msg_Req_HeartBeat struct {
-	Node_id    string `json:"node_id"`    //required
-	Port       string `json:"port"`       //required
-	Version    string `json:"version"`    //required
-	Access_key string `json:"access_key"` //required
+	Node_id      string `json:"node_id"`      //required
+	Port         string `json:"port"`         //required
+	Storage_port string `json:"storage_port"` //required
+	Version      string `json:"version"`      //required
+	Access_key   string `json:"access_key"`   //required
 }
 
 // @Description Msg_Resp_HeartBeat
