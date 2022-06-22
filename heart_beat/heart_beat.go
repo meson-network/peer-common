@@ -13,6 +13,7 @@ type Msg_Req_HeartBeat struct {
 	Storage_port string `json:"storage_port"` //required
 	Version      string `json:"version"`      //required
 	Access_key   string `json:"access_key"`   //required
+	Initial      bool   `json:"initial"`      //required
 }
 
 // @Description Msg_Resp_HeartBeat
