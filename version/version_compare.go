@@ -1,6 +1,7 @@
 package version
 
 import (
+	"strconv"
 	"strings"
 )
 
@@ -16,9 +17,12 @@ func VersionCompare(a string, b string) int {
 	aVersion := strings.Split(a, ".")
 	bVersion := strings.Split(b, ".")
 	for i, _ := range aVersion {
-		if aVersion[i] > bVersion[i] {
+		aV, _ := strconv.Atoi(aVersion[i])
+		bV, _ := strconv.Atoi(bVersion[i])
+
+		if aV > bV {
 			return 1
-		} else if aVersion[i] < bVersion[i] {
+		} else if aV < bV {
 			return -1
 		}
 	}
